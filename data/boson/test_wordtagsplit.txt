@@ -1,0 +1,30 @@
+浙/B_product_name 江/M_product_name 在/M_product_name 线/M_product_name 杭/M_product_name 州/E_product_name 4/B_time 月/M_time 2/M_time 5/M_time 日/E_time 讯/O
+记/O 者/O  /B_person_name 施/M_person_name 宇/M_person_name 翔/E_person_name  /O 通/O 讯/O 员/O  /O 方/B_person_name 英/E_person_name
+毒/O 贩/O 很/O
+时/O 髦/O
+用/O 微/B_product_name 信/E_product_name 交/O 易/O 毒/O 品/O
+没/O 料/O 想/O 警/O 方/O 也/O 很/O
+潮/O
+将/O 计/O 就/O 计/O
+一/O 举/O 将/O 其/O 擒/O 获/O
+记/O 者/O 从/O 杭/B_org_name 州/M_org_name 江/M_org_name 干/M_org_name 区/M_org_name 公/M_org_name 安/M_org_name 分/M_org_name 局/E_org_name 了/O 解/O 到/O
+经/O 过/O 一/O 个/O 多/O 月/O 的/O 侦/O 查/O 工/O 作/O
+江/B_org_name 干/M_org_name 区/M_org_name 禁/M_org_name 毒/M_org_name 专/M_org_name 案/M_org_name 组/E_org_name 抓/O 获/O 吸/O 贩/O 毒/O 人/O 员/O 5/O 名/O
+缴/O 获/O
+冰/O 毒/O
+4/O 0/O 0/O 余/O 克/O
+毒/O 资/O 3/O 0/O 0/O 0/O 0/O 余/O 元/O
+扣/O 押/O 汽/O 车/O 一/O 辆/O
+黑/B_location 龙/M_location 江/E_location 籍/O 男/O 子/O 钱/B_person_name 某/E_person_name 长/O 期/O 落/O 脚/O 于/O 宾/O 馆/O
+单/O 身/O 公/O 寓/O
+经/O 常/O 变/O 换/O 住/O 址/O
+他/O 有/O 一/O 辆/O 车/O
+经/O 常/O 半/O 夜/O 驾/O 车/O 来/O 往/O 于/O 杭/B_location 州/M_location 主/M_location 城/M_location 区/E_location 的/O 各/O 大/O 宾/O 馆/O 和/O 单/O 身/O 公/O 寓/O
+并/O 且/O 常/O 要/O 活/O 动/O 到/O 凌/B_time 晨/M_time 6/M_time 、/M_time 7/M_time 点/M_time 钟/E_time
+白/B_time 天/E_time 则/O 在/O 家/O 里/O 呼/O 呼/O 大/O 睡/O
+钱/B_person_name 某/E_person_name 不/O 寻/O 常/O 的/O 特/O 征/O
+引/O 起/O 了/O 警/O 方/O 注/O 意/O
+禁/O 毒/O 大/O 队/O 通/O 过/O 侦/O 查/O
+发/O 现/O 钱/B_person_name 某/E_person_name 实/O 际/O 上/O 是/O 在/O 向/O 落/O 脚/O 于/O 宾/O 馆/O 和/O 单/O 身/O 公/O 寓/O 的/O 吸/O 毒/O 人/O 员/O 贩/O 送/O
+冰/O 毒/O
+
