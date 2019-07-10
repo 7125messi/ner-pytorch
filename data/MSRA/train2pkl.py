@@ -4,39 +4,39 @@ import re
 import pandas as pd
 import numpy as np
 
-# def wordtag():
-#     with codecs.open('train.txt','r','utf-8') as input_data:
-#         with codecs.open('wordtag.txt','w','utf-8') as output_data:
-#             for line in input_data.readlines():
-#                 # 去掉每行头尾空格，并以""做分隔成一个列表
-#                 line = line.strip().split()
-#                 if len(line) == 0:
-#                     continue
-#                 # print(line)
-#                 # 针对每一行数据每一个元素遍历做处理
-#                 for word in line:
-#                     word = word.split('/')
-#                     # print(word)
-#                     if word[1]!='o':
-#                         # 实体由一个字符构成
-#                         if len(word[0]) == 1:
-#                             output_data.write(word[0] + "/B_" + word[1] + " ")
-#                         # 实体由两个字符构成
-#                         elif len(word[0]) == 2:
-#                             output_data.write(word[0][0] + "/B_" + word[1] + " ")
-#                             output_data.write(word[0][1] + "/E_" + word[1] + " ")
-#                         # 实体由三个及三个以上字符构成
-#                         else:
-#                             output_data.write(word[0][0] + "/B_" + word[1] + " ")
-#                             for j in word[0][1:len(word[0]) - 1]:
-#                                 output_data.write(j + "M_" + word[1] + " ")
-#                             output_data.write(word[0][-1] + "/E_" + word[1] + " ")
-#                     else:
-#                         for j in word[0]:
-#                             output_data.write(j + "/o" + " ")
-#                 output_data.write('\n')
-#
-# wordtag()
+def wordtag():
+    with codecs.open('train.txt','r','utf-8') as input_data:
+        with codecs.open('wordtag.txt','w','utf-8') as output_data:
+            for line in input_data.readlines():
+                # 去掉每行头尾空格，并以""做分隔成一个列表
+                line = line.strip().split()
+                if len(line) == 0:
+                    continue
+                # print(line)
+                # 针对每一行数据每一个元素遍历做处理
+                for word in line:
+                    word = word.split('/')
+                    # print(word)
+                    if word[1]!='o':
+                        # 实体由一个字符构成
+                        if len(word[0]) == 1:
+                            output_data.write(word[0] + "/B_" + word[1] + " ")
+                        # 实体由两个字符构成
+                        elif len(word[0]) == 2:
+                            output_data.write(word[0][0] + "/B_" + word[1] + " ")
+                            output_data.write(word[0][1] + "/E_" + word[1] + " ")
+                        # 实体由三个及三个以上字符构成
+                        else:
+                            output_data.write(word[0][0] + "/B_" + word[1] + " ")
+                            for j in word[0][1:len(word[0]) - 1]:
+                                output_data.write(j + "M_" + word[1] + " ")
+                            output_data.write(word[0][-1] + "/E_" + word[1] + " ")
+                    else:
+                        for j in word[0]:
+                            output_data.write(j + "/o" + " ")
+                output_data.write('\n')
+
+wordtag()
 datas = list()
 labels = list()
 linedata = list()
