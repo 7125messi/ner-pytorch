@@ -27,12 +27,5 @@ boson数据集的f值在70%~75%左右，人民日报和MSRA数据集的f值在85
 
 * 测试训练好的模型
 
-```shell
-
-```
 * 文件级别实体抽取
 使用 `python train.py input_file output_file` 进行文件级实体抽取。可以自动读取model文件夹中最新的模型，将`input_file`中的实体抽取出来写入`output_file`中。先是原句，然后是实体类型及实体（可按照需要修改）。
-
-```shell
-
-```
